@@ -2,7 +2,7 @@
 """
 Variable Annotations
 
-This module defines and documents several variables with type annotations.
+This module defines and documents several variables with type annotations
 """
 
 
