@@ -10,7 +10,8 @@ from typing import List, Union
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
-    Calculate the sum of a list containing a mix of integers and floating-point numbers.
+    Calculate the sum of a list containing a mix of integers
+    and floating-point numbers.
     """
     sum = 0
     for num in mxd_lst:
