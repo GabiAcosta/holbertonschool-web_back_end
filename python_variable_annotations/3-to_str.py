@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""
+to_str Function
+
+This module defines a function that converts a floating-point number
+to a string.
+"""
+
+
+def to_str(n: float) -> str:
+    """Converts a floating-point number to a string."""
+    return str(n)
