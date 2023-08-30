@@ -7,7 +7,7 @@ import random
 from typing import Generator
 
 
-async def async_generator() -> Generator[float]:
+async def async_generator() -> Generator[float, None, None]:
     """
     Asynchronous generator that yields random floats with a delay of 1 second.
     """
