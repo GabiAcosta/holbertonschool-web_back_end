@@ -9,7 +9,7 @@ def update_topics(mongo_collection, name, topics):
     """
     Update the topics field of a school document in a MongoDB collection.
     """
-    mongo_collection.update_one(
+    mongo_collection.update_many(
         {"name": name},
         {"$set": {"topics": topics}}
     )
