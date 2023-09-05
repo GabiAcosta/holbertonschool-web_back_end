@@ -7,7 +7,7 @@ MongoDB collection.
 
 def insert_school(mongo_collection, **kwargs):
     """
-    nsert a school document into a MongoDB collection.
+    Insert a school document into a MongoDB collection.
     """
     mongo_collection.insert_one(kwargs)
     return (kwargs.get('_id'))
