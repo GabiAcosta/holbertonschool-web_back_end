@@ -16,6 +16,11 @@ if __name__ == "__main__":
     delete = logs_collection.count_documents({"method": "DELETE"})
     status = logs_collection.count_documents(
         {"method": "GET", "path": "/status"})
-    print(f'{log} logs\nMethods:\n\tmethod GET: {get} \
-        \n\tmethod POST: {post}\n\tmethod PUT: {put}\n\tmethod PATCH: {patch} \
-        \n\tmethod DELETE: {delete}\n{status} status check')
+    print(f'{log} logs')
+    print("Methods:")
+    print(f'\tmethod GET: {get}')
+    print(f'\tmethod POST: {post}')
+    print(f'\tmethod PUT: {put}')
+    print(f'\tmethod PATCH: {patch}')
+    print(f'\tmethod DELETE: {delete}')
+    print(f'{status} status check')
