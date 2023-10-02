@@ -10,7 +10,7 @@ export default function handleProfileSignup(firstName, lastName, filename) {
       },
       {
         status: values[1].status,
-        value: values[1].reason,
+        value: values[1].reason.toString(),
       },
     ]);
 }
