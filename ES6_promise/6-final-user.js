@@ -6,11 +6,11 @@ export default function handleProfileSignup(firstName, lastName, filename) {
     .then((values) => ([
       {
         status: values[0].status,
-        value: values[0].value,
+        value: values[0].reason,
       },
       {
         status: values[1].status,
-        value: values[1].value,
+        value: values[1].reason,
       },
     ]));
 }
