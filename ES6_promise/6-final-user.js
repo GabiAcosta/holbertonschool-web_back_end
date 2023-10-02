@@ -6,7 +6,7 @@ export default function handleProfileSignup(firstName, lastName, filename) {
     .then((values) => ([
       {
         status: values[0].status,
-        value: values[0].reason,
+        value: values[0].value,
       },
       {
         status: values[1].status,
